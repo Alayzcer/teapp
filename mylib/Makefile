@@ -6,7 +6,7 @@ rm:
 	rm -rf $(build_dir_)
 
 c: rm
-	cmake -S . -B $(build_dir_) -D CMAKE_BUILD_TYPE=$(build_type_)
+	cmake -S . -B $(build_dir_) -D CMAKE_BUILD_TYPE=$(build_type_) 
 
 b: c
 	cmake --build $(build_dir_) --config $(build_type_) --parallel

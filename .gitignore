@@ -3,6 +3,7 @@
 _[bB]uild*
 out
 .task
+_deps*
 # Prerequisites
 *.d
 
